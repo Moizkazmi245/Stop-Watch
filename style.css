@@ -1,0 +1,54 @@
+body{
+    background-color: #838282;
+    font-size: 62.5%;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+
+.timerDiv {
+    margin: 0 auto;
+    background: linear-gradient(90deg, #242323, #353333, #4e4c4c); 
+    border: 2px solid black;
+    color: #ffffff; 
+    width: 300px; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px; 
+    padding: 150px 20px;
+    margin-top: 50px;
+}
+
+
+.timerDiv span{
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 15px;
+}
+
+#firstTimer {
+    padding-left: 15px;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+button {
+    padding: 20px 30px;
+    border-radius: 30px;
+    border: #ffffff;
+    background-color: #242323;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: #4e4c4c;
+    cursor: pointer;
+}
